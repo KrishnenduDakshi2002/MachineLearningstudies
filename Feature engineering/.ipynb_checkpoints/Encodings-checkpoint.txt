@@ -1,0 +1,35 @@
+https://www.youtube.com/watch?v=OTPz5plKb40
+
+Different types of Feature encoding techniques------
+
+----- When we are dealing with categorical variable( LIKE gender)
+Two types of categorical variable 
+1) Nominal encoding (For nominal categorical variables)---> like : Gender, State, Country( don't have to worry about the arrangement )
+2) Ordinal encoding (For Ordinal categorical variables)---> like : Education degree ( ranking is important)
+
+*********************************************
+
+Different techniques for Nominal Encoding
+
+*********************************************
+
+1) One hot encoding
+2) One hot encoding with many categorical 
+3) Mean Encoding
+
+*********************************************
+
+Different techniques for Ordinal encoding
+
+*********************************************
+
+1) Label encoding
+2) target guided ordinal encoding
+
+
+
+
+
+One hot encoding
+
+terms( Dummy variable trap)

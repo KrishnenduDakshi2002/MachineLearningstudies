@@ -1,0 +1,282 @@
+[
+  {
+    "id": 776,
+    "question": "Which of the mentioned is not part of the so called Superglobals variables which are automatically available in every scope.",
+    "description": null,
+    "answers": {
+      "answer_a": "$GLOBALS",
+      "answer_b": "$_SERVER",
+      "answer_c": "$_FILES",
+      "answer_d": "$_COOKIE",
+      "answer_e": "$FILES",
+      "answer_f": "$COOKIE"
+    },
+    "multiple_correct_answers": "true",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "true",
+      "answer_c_correct": "true",
+      "answer_d_correct": "true",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "tip": null,
+    "tags": [{ "name": "PHP" }],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 574,
+    "question": "PHP scripts are enclosed within _______",
+    "description": null,
+    "answers": {
+      "answer_a": "<php> . . . </php>",
+      "answer_b": "<p> . . . </p>",
+      "answer_c": "?php . . . ?php",
+      "answer_d": "<?php . . . ?>",
+      "answer_e": "<? .... ?>",
+      "answer_f": "<?php"
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "true",
+      "answer_e_correct": "true",
+      "answer_f_correct": "true"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [{ "name": "PHP" }],
+    "category": "Code",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 762,
+    "question": "Which of the following is used to destroy the session?",
+    "description": null,
+    "answers": {
+      "answer_a": "session_start() function",
+      "answer_b": "$_SESSION[]",
+      "answer_c": "isset() function",
+      "answer_d": "session_destroy() function",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "true",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "A PHP session can be destroyed by the session_destroy() function.",
+    "tip": null,
+    "tags": [{ "name": "PHP" }],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 925,
+    "question": "What is Ingress network?",
+    "description": null,
+    "answers": {
+      "answer_a": "Ingress network is a collection of rules that acts as an entry point to the Kubernetes cluster.",
+      "answer_b": "Ingress network is a routing outh that acts as an exit point to the Kubernetes cluster.",
+      "answer_c": "Ingress network is a http node that acts as an entry point to the Kubernetes cluster.",
+      "answer_d": null,
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "tip": null,
+    "tags": [{ "name": "Kubernetes" }],
+    "category": "DevOps",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 309,
+    "question": "How can you restore the WordPress core files?",
+    "description": null,
+    "answers": {
+      "answer_a": "The core files can be downloaded back from wordpress.org site.",
+      "answer_b": "The core files can be downloaded back from Database.",
+      "answer_c": "The core files can be downloaded back from your local machine as long as you have a backup",
+      "answer_d": "The core files can be fetched via your dashboard",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [{ "name": "WordPress" }],
+    "category": "CMS",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 556,
+    "question": "Which function in PHP is used to get the length of a string variable?",
+    "description": null,
+    "answers": {
+      "answer_a": "count()",
+      "answer_b": "len",
+      "answer_c": "strlen",
+      "answer_d": "strcount",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [{ "name": "PHP" }],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 248,
+    "question": "Which of the following will raise MySQL's version of an error?",
+    "description": null,
+    "answers": {
+      "answer_a": "SIGNAL",
+      "answer_b": "RAISE",
+      "answer_c": "ERROR",
+      "answer_d": "None of these",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [{ "name": "MySQL" }],
+    "category": "SQL",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 1025,
+    "question": "How to initialize a docker swarm?",
+    "description": "For more information check the official documentation here: https://docs.docker.com/engine/reference/commandline/swarm_init/",
+    "answers": {
+      "answer_a": "docker swarm init --advertise-addr your_server_ip_here",
+      "answer_b": "docker init swarm --advertise-addr your_server_ip_here",
+      "answer_c": "docker master init --advertise-addr your_server_ip_here",
+      "answer_d": "docker init --advertise-addr your_server_ip_here",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [{ "name": "Docker" }],
+    "category": "Docker",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 1047,
+    "question": "Which Ansible command will you use to install Apache on Ubuntu host?",
+    "description": null,
+    "answers": {
+      "answer_a": "ansible your_host_name_here -b -m apt -a \"name=apache2 state=latest\"",
+      "answer_b": "ansible your_host_name_here -b -m yum -a \"name=apache2 state=latest\"",
+      "answer_c": "ansible your_host_name_here -b -m wget -a \"name=apache2 state=latest\"",
+      "answer_d": "ansible your_host_name_here apt install \"name=apache2 state=latest\"",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [{ "name": "DevOps" }],
+    "category": "DevOps",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 492,
+    "question": "Which of the following tags represents a section of the document intended for navigation in HTML5?",
+    "description": null,
+    "answers": {
+      "answer_a": "footer",
+      "answer_b": "dialog",
+      "answer_c": "section",
+      "answer_d": "nav",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "true",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [{ "name": "HTML" }],
+    "category": "Code",
+    "difficulty": "Easy"
+  }
+]
